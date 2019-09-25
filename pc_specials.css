@@ -74,29 +74,37 @@ div.specials{
 
 
 /* Award Styles */
-
-#awardlist{
+div#awardList{
+height: 650px;
+overflow: scroll;
+}
+div#awardList{
     position:relative;
     height: 650px;
     overflow: auto;
 }
-#award1{
+div.awards{
+    width: 30%;
+    position: absolute;
+
+}
+div#award1{
     top: 80px;
     left: 5%;
 }
-#award2{
+div#award2{
     top: 280px;
     left: 60%;
 }
-#award3{
+div#award3{
     top: 400px;
     left: 20%;
 }
-#award4{
+div#award4{
     top: 630px;
     left: 20%;
 }
-#award5{
+div#award5{
     top: 750px;
     left: 5%;
 }
